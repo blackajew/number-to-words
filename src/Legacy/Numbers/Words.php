@@ -1,9 +1,9 @@
 <?php
 
-namespace NumberToWords\Legacy\Numbers;
+namespace BlackJew\NumberToWords\Legacy\Numbers;
 
-use NumberToWords\TransformerOptions\CurrencyTransformerOptions;
-use NumberToWords\Exception\NumberToWordsException;
+use BlackJew\NumberToWords\TransformerOptions\CurrencyTransformerOptions;
+use BlackJew\NumberToWords\Exception\NumberToWordsException;
 
 class Words
 {

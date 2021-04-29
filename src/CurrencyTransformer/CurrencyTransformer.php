@@ -1,8 +1,8 @@
 <?php
 
-namespace NumberToWords\CurrencyTransformer;
+namespace BlackJew\NumberToWords\CurrencyTransformer;
 
-use NumberToWords\TransformerOptions\CurrencyTransformerOptions;
+use BlackJew\NumberToWords\TransformerOptions\CurrencyTransformerOptions;
 
 interface CurrencyTransformer
 {

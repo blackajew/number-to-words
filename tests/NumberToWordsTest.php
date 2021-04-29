@@ -1,9 +1,9 @@
 <?php
 
-namespace NumberToWords;
+namespace BlackJew\NumberToWords;
 
-use NumberToWords\CurrencyTransformer\CurrencyTransformer;
-use NumberToWords\NumberTransformer\NumberTransformer;
+use BlackJew\NumberToWords\CurrencyTransformer\CurrencyTransformer;
+use BlackJew\NumberToWords\NumberTransformer\NumberTransformer;
 use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace NumberToWords\TransformerOptions;
+namespace BlackJew\NumberToWords\TransformerOptions;
 
 class CurrencyTransformerOptions
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace NumberToWords\Language\English;
+namespace BlackJew\NumberToWords\Language\English;
 
-use NumberToWords\Language\Dictionary;
+use BlackJew\NumberToWords\Language\Dictionary;
 
 class EnglishDictionary implements Dictionary
 {
@@ -88,6 +88,7 @@ class EnglishDictionary implements Dictionary
         'XPF' => [['CFP franc'], ['centime']],
         'YUM' => [['dinar'], ['para']],
         'ZAR' => [['rand'], ['cent']],
+        'UGX' => [['ugandan shilling']],
     ];
 
     /**

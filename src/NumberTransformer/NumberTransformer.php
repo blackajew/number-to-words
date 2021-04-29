@@ -1,6 +1,6 @@
 <?php
 
-namespace NumberToWords\NumberTransformer;
+namespace BlackJew\NumberToWords\NumberTransformer;
 
 interface NumberTransformer
 {

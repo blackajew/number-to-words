@@ -1,6 +1,6 @@
 <?php
 
-namespace NumberToWords\Language;
+namespace BlackJew\NumberToWords\Language;
 
 interface Dictionary
 {

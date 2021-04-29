@@ -1,11 +1,11 @@
 <?php
 
-namespace NumberToWords\NumberTransformer;
+namespace BlackJew\NumberToWords\NumberTransformer;
 
-use NumberToWords\Language\English\EnglishDictionary;
-use NumberToWords\Language\English\EnglishExponentGetter;
-use NumberToWords\Language\English\EnglishTripletTransformer;
-use NumberToWords\Service\NumberToTripletsConverter;
+use BlackJew\NumberToWords\Language\English\EnglishDictionary;
+use BlackJew\NumberToWords\Language\English\EnglishExponentGetter;
+use BlackJew\NumberToWords\Language\English\EnglishTripletTransformer;
+use BlackJew\NumberToWords\Service\NumberToTripletsConverter;
 
 class EnglishNumberTransformer implements NumberTransformer
 {

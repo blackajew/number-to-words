@@ -1,8 +1,8 @@
 <?php
 
-namespace NumberToWords\Language\English;
+namespace BlackJew\NumberToWords\Language\English;
 
-use NumberToWords\Language\TripletTransformer;
+use BlackJew\NumberToWords\Language\TripletTransformer;
 
 class EnglishTripletTransformer implements TripletTransformer
 {

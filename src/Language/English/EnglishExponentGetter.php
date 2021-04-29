@@ -1,8 +1,8 @@
 <?php
 
-namespace NumberToWords\Language\English;
+namespace BlackJew\NumberToWords\Language\English;
 
-use NumberToWords\Language\ExponentGetter;
+use BlackJew\NumberToWords\Language\ExponentGetter;
 
 class EnglishExponentGetter implements ExponentGetter
 {

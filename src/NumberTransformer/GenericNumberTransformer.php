@@ -1,13 +1,13 @@
 <?php
 
-namespace NumberToWords\NumberTransformer;
+namespace BlackJew\NumberToWords\NumberTransformer;
 
-use NumberToWords\Language\Dictionary;
-use NumberToWords\Language\ExponentGetter;
-use NumberToWords\Language\ExponentInflector;
-use NumberToWords\Language\PowerAwareTripletTransformer;
-use NumberToWords\Language\TripletTransformer;
-use NumberToWords\Service\NumberToTripletsConverter;
+use BlackJew\NumberToWords\Language\Dictionary;
+use BlackJew\NumberToWords\Language\ExponentGetter;
+use BlackJew\NumberToWords\Language\ExponentInflector;
+use BlackJew\NumberToWords\Language\PowerAwareTripletTransformer;
+use BlackJew\NumberToWords\Language\TripletTransformer;
+use BlackJew\NumberToWords\Service\NumberToTripletsConverter;
 
 class GenericNumberTransformer implements NumberTransformer
 {

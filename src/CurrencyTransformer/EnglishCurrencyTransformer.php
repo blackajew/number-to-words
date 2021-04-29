@@ -1,13 +1,13 @@
 <?php
 
-namespace NumberToWords\CurrencyTransformer;
+namespace BlackJew\NumberToWords\CurrencyTransformer;
 
-use NumberToWords\Exception\NumberToWordsException;
-use NumberToWords\Language\English\EnglishDictionary;
-use NumberToWords\Language\English\EnglishExponentGetter;
-use NumberToWords\Language\English\EnglishTripletTransformer;
-use NumberToWords\NumberTransformer\NumberTransformerBuilder;
-use NumberToWords\Service\NumberToTripletsConverter;
+use BlackJew\NumberToWords\Exception\NumberToWordsException;
+use BlackJew\NumberToWords\Language\English\EnglishDictionary;
+use BlackJew\NumberToWords\Language\English\EnglishExponentGetter;
+use BlackJew\NumberToWords\Language\English\EnglishTripletTransformer;
+use BlackJew\NumberToWords\NumberTransformer\NumberTransformerBuilder;
+use BlackJew\NumberToWords\Service\NumberToTripletsConverter;
 
 class EnglishCurrencyTransformer implements CurrencyTransformer
 {
@@ -31,8 +31,8 @@ class EnglishCurrencyTransformer implements CurrencyTransformer
             ->useRegularExponents($exponentInflector)
             ->build();
 
-        $decimal = (int) ($amount / 100);
-        $fraction = abs($amount % 100);
+        $decimal = $currency != 'UGX' ? (int) ($amount / 100) : (int) ($amount);
+        $fraction = $currency != 'UGX' ? abs($amount % 100) : abs($amount % 1);
 
         if ($fraction === 0) {
             $fraction = null;

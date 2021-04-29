@@ -1,6 +1,6 @@
 <?php
 
-namespace NumberToWords\Exception;
+namespace BlackJew\NumberToWords\Exception;
 
 class NumberToWordsException extends \Exception
 {
