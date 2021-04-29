@@ -7,11 +7,10 @@ use BlackJew\NumberToWords\CurrencyTransformer\EnglishCurrencyTransformer;
 use BlackJew\NumberToWords\NumberTransformer\EnglishNumberTransformer;
 use BlackJew\NumberToWords\NumberTransformer\NumberTransformer;
 
-
 class NumberToWords
 {
     private $numberTransformers = [
-        'en' => EnglishNumberTransformer::class,
+        'en' => EnglishNumberTransformer::class
     ];
 
     private $currencyTransformers = [
