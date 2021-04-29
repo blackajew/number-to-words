@@ -4,7 +4,7 @@
 [![Travis](https://travis-ci.org/kwn/number-to-words.svg?branch=master)](https://travis-ci.org/github/blackajew/number-to-words)
 [![Code Climate](https://codeclimate.com/github/kwn/number-to-words/badges/gpa.svg)](https://codeclimate.com/github/blackajew/number-to-words)
 [![Test Coverage](https://codeclimate.com/github/kwn/number-to-words/badges/coverage.svg)](https://codeclimate.com/github/blackajew/number-to-words/coverage)
-[![Latest Stable Version](https://poser.pugx.org/blackajew/kwn/number-to-words/v/stable)](https://packagist.org/packages/blackajew/number-to-words)
+[![Latest Stable Version](https://poser.pugx.org/kwn/number-to-words/v/stable)](https://packagist.org/packages/blackjew/number-to-words)
 
 This library allows you to convert a number to words.
 
