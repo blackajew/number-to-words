@@ -1,6 +1,6 @@
 <?php
 
-namespace NumberToWords\Service;
+namespace BlackJew\NumberToWords\Service;
 
 class NumberToTripletsConverter
 {

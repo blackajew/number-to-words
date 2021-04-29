@@ -1,6 +1,6 @@
 <?php
 
-namespace NumberToWords\NumberTransformer;
+namespace Blackjew\NumberToWords\NumberTransformer;
 
 use PHPUnit\Framework\TestCase;
 

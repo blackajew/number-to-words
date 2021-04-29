@@ -1,9 +1,9 @@
 <?php
 
-namespace NumberToWords\Grammar;
+namespace BlackJew\NumberToWords\Grammar;
 
-use NumberToWords\Language\Dictionary;
-use NumberToWords\NumberTransformer\NumberTransformerBuilder;
+use BlackJew\NumberToWords\Language\Dictionary;
+use BlackJew\NumberToWords\NumberTransformer\NumberTransformerBuilder;
 
 class CurrencyTransformerBuilder
 {

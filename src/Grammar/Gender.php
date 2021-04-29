@@ -1,6 +1,6 @@
 <?php
 
-namespace NumberToWords\Grammar;
+namespace BlackJew\NumberToWords\Grammar;
 
 class Gender
 {
