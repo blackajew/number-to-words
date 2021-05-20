@@ -4,17 +4,22 @@ namespace BlackJew\NumberToWords;
 
 use BlackJew\NumberToWords\CurrencyTransformer\CurrencyTransformer;
 use BlackJew\NumberToWords\CurrencyTransformer\EnglishCurrencyTransformer;
+use BlackJew\NumberToWords\CurrencyTransformer\LuoCurrencyTransformer;
 use BlackJew\NumberToWords\NumberTransformer\EnglishNumberTransformer;
+use BlackJew\NumberToWords\NumberTransformer\LuoNumberTransformer;
 use BlackJew\NumberToWords\NumberTransformer\NumberTransformer;
 
 class NumberToWords
 {
+
     private $numberTransformers = [
-        'en' => EnglishNumberTransformer::class
+        'en'    => EnglishNumberTransformer::class,
+        'luo'   => LuoNumberTransformer::class
     ];
 
     private $currencyTransformers = [
-        'en' => EnglishCurrencyTransformer::class
+        'en'    => EnglishCurrencyTransformer::class,
+        'luo'   => LuoCurrencyTransformer::class
     ];
 
     /**
@@ -25,14 +30,18 @@ class NumberToWords
      */
     public function getNumberTransformer($language)
     {
-        if (!array_key_exists($language, $this->numberTransformers)) {
+
+        if (!array_key_exists( $language, $this->numberTransformers )) {
+
             throw new \InvalidArgumentException(sprintf(
                 'Number transformer for "%s" language is not implemented.',
                 $language
             ));
+
         }
 
         return new $this->numberTransformers[$language];
+
     }
 
     /**
@@ -43,13 +52,18 @@ class NumberToWords
      */
     public function getCurrencyTransformer($language)
     {
-        if (!array_key_exists($language, $this->currencyTransformers)) {
+
+        if (!array_key_exists( $language, $this->currencyTransformers )) {
+
             throw new \InvalidArgumentException(sprintf(
                 'Currency transformer for "%s" language is not implemented.',
                 $language
             ));
+
         }
 
         return new $this->currencyTransformers[$language];
+
     }
+
 }
